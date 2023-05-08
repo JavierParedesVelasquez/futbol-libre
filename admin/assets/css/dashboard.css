@@ -1,0 +1,240 @@
+body {
+    background: #FEFEFE;
+}
+a{
+    text-decoration: none;
+}
+
+.barra {
+    background: #5531F3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding-right: 70px;
+    border-bottom: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.barra i{
+    font-size: 15px;
+    color: #fff;
+    margin-right: 10px;
+}
+.barra .fa-user-circle{
+    font-size: 40px;
+    color: #fff;
+    margin-right: 10px;
+}
+.barra1{
+    background: #5531F3;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
+}
+
+.dropdown-menu {
+    margin: 17px;
+    background: #262a34;
+    color: white;
+    box-shadow: #5531F3;
+    
+}
+
+.menu span{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 13px;
+}
+.menuperfil {
+    color: white;
+}
+
+.menuperfil:focus {
+    background: #23ae6b;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+}
+
+.cerrar:hover {
+    background-color: #5531F3;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    color: #fff;
+}
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.user {
+    font-size: 35px;
+}
+
+
+/*BARRA LATERAL*/
+
+.barra-lateral {
+    background: #5531F3;
+    color: #fff;
+    min-width: 139px;
+    min-height: 100vh;
+    padding: 0;
+    border: 1px solid #5531F3;
+}
+
+.barra-lateral a {
+    color: #fff;
+}
+
+
+/*ESTILOS MENU*/
+
+.barra-lateral .menu a {
+    display: block;
+    padding: 20px 9px;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.barra-lateral .menu a:hover {
+    background-color: #fff;
+    color:#5531F3 ;
+    text-decoration: none;
+}
+
+.active {
+    background: #5531F3;
+}
+
+
+.barra-lateral .menu a i {
+    margin-right: 20px;
+}
+.barra_text_admin{
+    font-family: 'Carter One', cursive;
+}
+
+/*MAIN*/
+
+.main {
+    padding-top: 40px;
+}
+
+.main .columna {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container_titu_agenda_Edit{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.container_titu_agenda_Edit i{
+    font-size: 30px;
+    margin-right: 10px;
+}
+.panel-heading{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.panel-heading i{
+    font-size: 30px;
+    margin-right: 5px;
+}
+.columna h1{
+    font-family: 'Carter One', cursive;
+}
+/*PANEL*/
+.panel1{
+    padding: 20px;
+    margin-bottom: 22px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(10, 5, 5, 0.30);
+}
+.panel2{
+    padding: 5px;
+    margin-bottom: 22px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(10, 5, 5, 0.30);
+}
+/*mediaquerys*/
+
+@media screen and (max-width:1300px) {
+    .barra-lateral {
+        min-width: auto;
+    }
+    .barra-lateral .menu a span {
+        display: none;
+    }
+    .barra-lateral .menu a i {
+        margin: 0;
+    }
+    .barra {
+        min-width: auto;
+    }
+    .dropdown-menu {
+        margin: 20px -79px 0px;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        min-height: auto;
+    }
+    .barra-lateral .menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78px 0px;
+    }
+    .logocppe {
+        width: 100%;
+    }
+    body {
+        background: #FEFEFE;
+        font-size: 16px;
+        overflow: visible;
+    }
+}
+
+.formulariorecursos {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.568);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+@media screen and (max-width:575px) {
+    .barra-lateral {
+        height: auto;
+    }
+    .barra-lateral.menu a {
+        display: inline-block;
+        border-bottom: none;
+    }
+    .dropdown-menu {
+        margin: 20px -78 0px;
+    }
+    body {
+        font-size: 16px;
+        overflow: visible;
+    }
+}
+
+/*   AGENDA PARTIDOS
+========================*/
+.div_agenda_1{
+    gap: 15px;
+}
+.div_agenda_2{
+    gap:15px;
+}

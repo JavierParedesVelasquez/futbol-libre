@@ -1,0 +1,57 @@
+@media (max-width:1200px){
+    .canales-blog{
+        max-width: 30%;
+    }
+    .video-responsive{
+        width: 70%;
+
+    }
+}
+@media (max-width:800px){
+    .acordeon{
+        width: 70%;
+    }
+    .canales-blog{
+        max-width: 35%;
+    }
+    .titu_envivo{
+        width: 80%;
+    }
+    .video-responsive{
+        width: 95%;
+    }
+}
+@media (max-width:600px){
+    .acordeon{
+        width: 100%;
+    }
+    .canales-blog{
+        max-width: 45%;
+    }
+    .summer1{
+        width: 70%;
+    }
+    .summer2{
+        width: 70%;
+    }
+}
+@media (max-width:400px){
+    .title_canales{
+        padding: 0 46px;
+    }
+    .acordeon{
+        width: 100%;
+    }
+    .summer1{
+        width: 80%;
+    }
+    .summer2{
+        width: 80%;
+    }
+    .canales-blog{
+        max-width: 80%;
+    }
+    .pie-pagina .grupo-2 small{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,54 @@
+.body{
+    background-color: #F2F1F6 ;
+    font-family: 'Open Sans', sans-serif;
+}
+/*  HEADER 
+==============*/
+.header{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #cdd2da;
+    padding: 10px 0;
+}
+.logo_nav{
+    width: 45px;
+}
+.logo_nav:hover{
+    background-color: #020622;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/*   ACORDION
+==================*/
+
+.title_agenda{
+    background-color: #020622;
+}
+.card:hover{
+    box-shadow: 0 10px 20px rgb(0 0 0 / 20%);
+}
+.btn-primary{
+    background-color: #020622 !important;
+    border: none !important;
+}
+.btn-primary:hover{
+    background-color: #1B1F38 !important;
+    cursor: pointer !important;
+}
+/*    FOOTER
+================*/
+.footer{
+    background-color: #FFFFFF;
+}
+.copy_footer{
+    background-color: #020622;
+}
+.social_footer a{
+    color: #020622;
+    text-decoration: none;
+    font-size: 25px;
+}
+@media (max-width:600px){
+    .copy_footer small{
+        font-size: 10px;
+    }
+}

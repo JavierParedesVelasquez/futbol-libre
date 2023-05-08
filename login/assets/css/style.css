@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-image: linear-gradient(139.96deg, #010101 9.59%, #5531F3 113.47%);
+}
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    padding: 80px;
+}
+.div_login_main{
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+.form_signin{
+    background: #cccbcd;
+    width: auto;
+    margin: auto;
+    height: 355px;
+    text-align: center;
+    display: grid;
+    padding: 50px;
+    gap: 18px;
+    border-radius: 26px;
+}
+.div_login_img{
+    display: grid;
+    justify-items: right;
+}
+.div_login_img img{
+    width: 80%;
+}
+.form_signin i{
+    margin-left: 5px;
+}
+.form_signin h2{
+    color: #fff;
+}
+.form_signin input{
+    padding-left: 16px;
+}
+.icono_user{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.icono_pass{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+.form_signin button{
+    background: #0577D0;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 20px;
+    border-radius: 7px;
+}
+.form_signin button:hover{
+    background: #EFECEC;
+    color: #0577D0;
+}

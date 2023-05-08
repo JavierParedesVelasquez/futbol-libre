@@ -1,0 +1,11 @@
+#Si un enlace simbolico existe que lo siga
+Options +FollowSymLinks
+#Queremos establecer o reescribir una ruta que nosotros queramos
+RewriteEngine on
+#Regla que escribimos nosotros/
+#Se sigue una sintaxis, lo primer es url amigable
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+
